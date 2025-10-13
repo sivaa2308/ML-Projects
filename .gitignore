@@ -1,3 +1,19 @@
-*.pyc
-__pycache__/
+# Ignore virtual environments
 venv1/
+venv/
+.env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda environment metadata
+*.conda
+*.json
+*.yml
+
+# OS files
+.DS_Store
+Thumbs.db
